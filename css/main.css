@@ -1,0 +1,85 @@
+.main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #a7d675;
+}
+.img{
+    border: 2px solid #ddd;
+    box-shadow:  0px 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+/* .icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animationSnow 3s ease-in-out infinite;
+} */
+.chu{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: #fd485b;
+    font-weight: 700;
+    z-index: 3;
+}
+@keyframes animationSnow {
+    0%{
+        transform: translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(100px,50vh);
+    }
+}
+.snows{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+.giangsinh{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: palevioletred;
+    z-index: 10;
+}
+.dichoi{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tong{
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 350px;
+}
+.dongy{
+    height: 10%;
+}
+.khong{
+   height: 10%;
+} 
