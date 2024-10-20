@@ -9,7 +9,7 @@ for (var i = 0; i < 90; i++) {
   let div = document.createElement("i");
   div.classList.add("snows");
   div.classList.add("bi");
-  div.classList.add("bi-snow2");
+  div.classList.add("bi-arrow-through-heart");
   //   div.innerHTML = '<i class="bi bi-snow2 snows"></i>';
   div.style.left = leftSnow + "px";
   div.style.top = topSnow + "px";

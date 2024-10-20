@@ -4,7 +4,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #a7d675;
+    background-color: bisque;
 }
 .img{
     border: 2px solid #ddd;
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     font-style: italic;
-    color: #fd485b;
+    color: burlywood;
     font-weight: 700;
     z-index: 3;
 }
@@ -44,7 +44,7 @@
     }
 }
 .snows{
-    color: #fff;
+    color: crimson;
     font-size: 25px;
     font-weight: 300;
     z-index: 5;
@@ -59,7 +59,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: palevioletred;
+    background-color: #a7d675;
     z-index: 10;
 }
 .dichoi{
